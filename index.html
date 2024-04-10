@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Html Images And Image Map</title>
+	<link rel="stylesheet" href="index.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.min.js" integrity="sha512-ykZ1QQr0Jy/4ZkvKuqWn4iF3lqPZyij9iRv6sGqLRdTPkY69YX6+7wvVGmsdBbiIfN/8OdsI7HABjvEok6ZopQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	
+</head>
+<body>
+	<section class="container text-justify">
+		<h1>Html Images And Image Map</h1>
+		<p>To create an image map you need an image, and some HTML code that describes the clickable areas.The usemap value starts with a hash tag <b>#</b> followed by the name of the image map, and is used to create a relationship between the image and the image map.The image is inserted using the tag. The only difference from other images is that you must add  a usemap attribute:</p>
+		<h2>Creating An image map</h2>
+		<p>Then, add a <map> element.The <map> element is used to create an image map, and is   linked to the image by using the required name attribute:</p>
+		<div>
+			<img src="image-map.jpg" alt="naturemap" usemap="#workmap">
+			<map name="workmap">
+				<area shape="rect" coords=" 20, 20, 220, 250" href="comp.webp" style="width: 25%; height: auto;"  alt="istockphotos">
+				<area shape="circle" coords="64,65,200,250" href="comp1.jpeg" alt="comp">
+			</map>
+		</div>
+	</section>
+	<section class="cads container">
+		<h2 class="text text-center">Learning images, Cards and shadow effect</h2>
+	  <div class="cards shadow">
+		  <div class="img">
+			  <div>
+			   <img src="comp.webp" alt="">
+			   <h2>Nelson</h2>
+			   <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est blanditiis architecto iusto! Voluptas delectus voluptate, illum in eius placeat provident, saepe architecto dolore accusamus nulla cupiditate, modi quae ab pariatur.</p>
+			  <div class="span">
+				 <span class="text-decoration-line-through">was $98</span>
+				 <span>now $85</span>
+				 <button>Make Order Now</button>
+			  </div>
+			</div>
+		  </div>
+		  <div class="img">
+			  <div>
+				  <img src="comp4.webp" alt="">
+				  <h2>Nelson</h2>
+				  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est blanditiis architecto iusto! Voluptas delectus voluptate, illum in eius placeat provident, saepe architecto dolore accusamus nulla cupiditate, modi quae ab pariatur.</p>
+				  <div class="span">
+					  <span class="text-decoration-line-through">was $128</span>
+					  <span>now $125</span>
+					  <button>Make Order Now</button>
+				  </div>
+			  </div>
+		  </div>
+		  <div class="img">
+			  <div>
+				  <img src="comp1.jpeg" alt="">
+				  <h2>Jack</h2>
+				  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est blanditiis architecto iusto! Voluptas delectus voluptate, illum in eius placeat provident, saepe architecto dolore accusamus nulla cupiditate, modi quae ab pariatur.</p>
+				  <div class="span">
+					 <span class="text-decoration-line-through">was $118</span>
+					 <span>now $105</span>
+					 <button>Make Order Now</button>
+				  </div>
+			  </div>
+		  </div>
+		  <div class="img">
+			  <div>
+				  <img src="comp2.webp" alt="">
+				  <h2>Madson</h2>
+				  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est blanditiis architecto iusto! Voluptas delectus voluptate, illum in eius placeat provident, saepe architecto dolore accusamus nulla cupiditate, modi quae ab pariatur.</p>
+				  <div class="span">
+					  <span class="text-decoration-line-through">was $108</span>
+					  <span>now $86</span>
+					  <button>Make Order Now</button>
+				  </div>
+			  </div>
+		  </div>
+		  <div class="img">
+			  <div>
+				  <img src="comp3.jpeg" alt="">
+				  <h2>Nelon</h2>
+				  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est blanditiis architecto iusto! Voluptas delectus voluptate, illum in eius placeat provident, saepe architecto dolore accusamus nulla cupiditate, modi quae ab pariatur.</p>
+				  <div class="span">
+					  <span class="text-decoration-line-through">was $97</span>
+					  <span>now $82</span>
+					  <button>Make Order Now</button>
+				  </div>
+			  </div>
+		  </div>
+	  </div>
+	</section>
+</body>
+</html>
